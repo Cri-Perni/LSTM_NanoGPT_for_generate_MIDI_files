@@ -14,7 +14,7 @@ L'obiettivo è generare brani musicali (con un focus sullo stile Romantico/Class
 
 Il progetto è diviso in due notebook principali:
 
-### 1. `Copia_di_LSTM_RomaticaV2.ipynb` (Approccio Classico)
+### 1. `LSTM.ipynb` (Approccio Classico)
 * **Architettura:** LSTM (Recurrent Neural Network).
 * **Funzionalità:**
     * Preprocessing dei file MIDI usando `music21`.
@@ -22,7 +22,7 @@ Il progetto è diviso in due notebook principali:
     * Training sequenziale per predire la nota successiva.
 * **Librerie chiave:** `music21`, `pandas`, `matplotlib`, `tensorflow/keras`.
 
-### 2. `Trasformer_CategoricoV3.ipynb` (Approccio Moderno)
+### 2. `NanoGPT.ipynb` (Approccio Moderno)
 * **Architettura:** Transformer (Attention-based).
 * **Funzionalità:**
     * Tokenizzazione avanzata dei file MIDI usando `miditok` e `symusic`.
